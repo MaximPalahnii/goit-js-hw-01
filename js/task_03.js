@@ -1,18 +1,11 @@
-const userPassword = '';
-const ADMIN_PASSWORD = 'jqueryismyjam';
+let topSpeed = 160;
+let distance = 617.54;
+const login = 'mango935';
+let isOnline = true;
+let isAdmin = false;
 
-const CANCELED_BY_USER = 'Отменено пользователем!';
-const ACCESS_IS_ALLOWED = 'Добро пожаловать!';
-const ACCESS_DENIED = 'Доступ запрещен, неверный пароль!';
-let message;
-
-// Write code under this line
-if (userPassword === ADMIN_PASSWORD) {
-  message = ACCESS_IS_ALLOWED;
-} else if (userPassword === null) {
-  message = CANCELED_BY_USER;
-} else {
-  message = ACCESS_DENIED;
-}
-
-console.log(message);
+console.log(topSpeed);
+console.log(distance);
+console.log(login);
+console.log(isOnline);
+console.log(isAdmin);
